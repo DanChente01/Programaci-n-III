@@ -1,0 +1,31 @@
+/*ESTILOS PAGINA 1*/
+#div1{
+	text-align: center;
+}
+
+/*ESTILOS PAGINA 2*/
+
+#body2{
+	background-color: #E1DF77;
+}
+
+#div2{
+	text-align: center;
+	color: #2027E3;
+}
+
+/*ESTILOS PAGINA 3*/
+
+ul{
+	list-style: square;
+}
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+#color3{
+	color: blue;
+}
+span{
+	color: red;
+}
