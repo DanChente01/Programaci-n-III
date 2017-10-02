@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Formularios</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios de Usuarios</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<table  border="2" style="width:  50%" align="center" class="tablaFormulario">
+    <table  border="2" style="width: 40%">
 		<!--primera fila-->
         <tr>
-            <th colspan="2" >FORMULARIOS</td>
+            <th colspan="2" id="titulo_Form">FORMULARIOS</th>
          </tr>
-         <form method="get" action="pagina1.html">
-         	<tr>
+         <form method="get" action="frames.html">
+         	<tr  class="formulario">
          		<!--Segunda fila-->
             	<td>
                 <!--primera columna label-->
@@ -23,7 +26,7 @@
             	</td>
          	</tr>
          	<!--Tercera fila-->
-         	<tr>
+         	<tr  class="formulario">
             	<td>
                 <!--primera columna label-->
                 <label>Contraseña</label>
@@ -33,74 +36,10 @@
                 <input type="password" name="password" required="">
             	</td>
          	</tr>
-         	<!--Cuarta fila-->
-         	<tr>
+         	<tr  class="formulario">
+                 <!--botones-->
+                 <td></td>
             	<td>
-                <!--primera columna label-->
-                <label>Text Area</label>
-            	</td>
-            	<td>
-                <!--Segunda columna textarea-->
-                <textarea cols="20" rows="3" required=""></textarea>
-            	</td>
-         	</tr>
-         	<!--quinta fila-->
-         	<tr>
-            	<td>
-                <!--primera columna label-->
-                <label>Email</label>
-            	</td>
-            	<td>
-                <!--Segunda columna textarea-->
-                <input type="email" name="email" placeholder="dvergara9@cuc.edu.co" required="">
-            	</td>
-         	</tr>
-         	<!--sexta fila-->
-         	<tr>
-            	<td>
-                <!--primera columna label-->
-                <label>Agrege su sexo</label>
-            	</td>
-            	<td>
-                <!--Segunda columna textarea-->
-                <input type="radio" name="sexo">Masculino <br>
-                <input type="radio" name="sexo">Femenino <br>
-            	</td>
-         	</tr>
-         	<!--septima fila-->
-         	<tr>
-            	<td>
-                <!--primera columna label-->
-                <label>Agrege su interes</label>
-            	</td>
-            	<td>
-                <!--Segunda columna textarea-->
-                <input type="checkbox" name="opcion1">Desportes <br>
-                <input type="checkbox" name="opcion1">Musica <br>
-                <input type="checkbox" name="opcion1">Libros <br>
-                <input type="checkbox" name="opcion1">Viaje<br>
-                <input type="checkbox" name="opcion1">Cine<br>
-            	</td>
-         	</tr>
-         	<!--octava fila-->
-         	<tr>
-            	<td>
-                <!--primera columna label-->
-                <label>Estado civil</label>
-            	</td>
-            	<td>
-                <!--Segunda columna textarea-->
-                <select name="lista">
-                	<option>Soltero(a)</option>
-                	<option>Casado(a)</option>
-                	<option>Divorciado(a)</option>
-                	<option>Viudo(a)</option>
-                </select>
-            	</td>
-         	</tr>
-         	<tr>
-         		<!--botones-->
-            	<td colspan="2" align="center" >
             		<input type="submit" name="Aceptar" value="Aceptar">
             		<input type="reset" name="Borrar" value="Borrar">
             	</td>
