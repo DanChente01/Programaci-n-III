@@ -1,35 +1,39 @@
-/*ESTILOS PAGINA 1*/
-#div1{
-	text-align: center;
+/*Tipo de letra*/
+html{
+    font-family: Tahoma, sans-serif;
 }
-
-/*ESTILOS PAGINA 2*/
-
-#body2{
-	background-color: #E1DF77;
+/*Estilos para el formulario inicial*/
+#titulo_Form{
+    background-color: #3F52F6;
+    color: #ffffff;
 }
-
-#div2{
-	text-align: center;
-	color: #2027E3;
+.formulario{
+    background-color: #F6690E;
+    font-weight: bold;
 }
-
-/*ESTILOS PAGINA 3*/
-
-ul{
-	list-style: square;
+/*ESTILOS FRAMESET*/
+/*Pagina1 - hipervinculoimagen - hipervinculotexto*/
+.fondoAmarillo{
+    background-color: #FAF898;
+    color: #060C97;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*pagina2*/
+.fondoAzul{
+    background-color: #060C97;
+    color: #ffffff;
+}
+a{
+    color: #ffffff;
+}
+a:hover{
+    color: red;
 }
 img{
-	max-width: 100%;
-	max-height: 100%;
+    max-width: 80%;
 }
-#color3{
-	color: blue;
-}
-span{
-	color: red;
-}
-/*Estilos formulario*/
-.tablaFormulario{
-	text-align: center;
+/*Pagina3*/
+ul{
+    list-style: square;
 }
