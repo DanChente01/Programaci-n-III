@@ -1,35 +1,41 @@
-/*ESTILOS PAGINA 1*/
-#div1{
-	text-align: center;
+/*Tipo de letra*/
+html{
+    font-family: Tahoma, sans-serif;
 }
 
-/*ESTILOS PAGINA 2*/
-
-#body2{
-	background-color: #E1DF77;
+/*ESTILOS FRAMESET*/
+/*Estilo para titulo.html*/
+.fondoAmarillo{
+    background-color: #FAF898;
+    color: #060C97;
+    text-align: center;
+    text-transform: uppercase;
 }
-
-#div2{
-	text-align: center;
-	color: #2027E3;
+/*Estilo para bienvenidos.hml*/
+.fondoAzulOscuro{
+    background-color: #060C97;
+    color: #ffffff;
 }
-
-/*ESTILOS PAGINA 3*/
-
-ul{
-	list-style: square;
+#centrado{
+    position: absolute;
+    top: 40%;
+    left: 50%;
 }
+/*Estilo para menu.html*/
+.fondoAzulClaro{
+    background-color: #2EFEF7;
+}
+a:hover{
+    color: red;
+}
+/*Estilos para datosPersonales.html*/
+.fondoAzul{
+    background-color: #00BFFF;
+}
+label{
+    font-weight: bold;
+}
+/*Estilo para productos.html*/
 img{
-	max-width: 100%;
-	max-height: 100%;
-}
-#color3{
-	color: blue;
-}
-span{
-	color: red;
-}
-/*Estilos formulario*/
-.tablaFormulario{
-	text-align: center;
+    max-width: 60px;
 }
